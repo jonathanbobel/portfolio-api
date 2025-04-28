@@ -1,0 +1,16 @@
+[
+    {
+      "id": "project-1",
+      "title": "Responsive Design System",
+      "description": "Built a design system for internal tools at Sherwin Williams.",
+      "tags": ["design system", "sass", "a11y"],
+      "url": "https://example.com/project-1"
+    },
+    {
+      "id": "project-2",
+      "title": "D3.js Message Chart",
+      "description": "Interactive stacked bar chart with animated tooltips and dropdown filters.",
+      "tags": ["d3.js", "accessibility", "data viz"],
+      "url": "https://example.com/project-2"
+    }
+  ]
