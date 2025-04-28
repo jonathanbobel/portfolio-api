@@ -68,9 +68,7 @@ Visit `http://localhost:3000` in your browser to confirm the API is running.
 
 This API is live and accessible at:
 
-```
 [https://your-api.onrender.com](https://portfolio-api-d05y.onrender.com)
-```
 
 ---
 
