@@ -1,16 +1,37 @@
 [
-    {
-      "id": "project-1",
-      "title": "Responsive Design System",
-      "description": "Built a design system for internal tools at Sherwin Williams.",
-      "tags": ["design system", "sass", "a11y"],
-      "url": "https://example.com/project-1"
-    },
-    {
-      "id": "project-2",
-      "title": "D3.js Message Chart",
-      "description": "Interactive stacked bar chart with animated tooltips and dropdown filters.",
-      "tags": ["d3.js", "accessibility", "data viz"],
-      "url": "https://example.com/project-2"
-    }
-  ]
+  {
+    "id": "notify-gov",
+    "title": "Notify.gov",
+    "description": "Designed and developed the Notify.gov platform, a secure government messaging service. Led branding, front-end development, and accessibility improvements, ensuring compliance with WCAG 2.2 and the U.S. Web Design System (USWDS). Built data visualizations with D3.js to enhance insights.",
+    "image": "/images/notify_landing.jpg",
+    "link": "/projects/notify-gov/"
+  },
+  {
+    "id": "uswds-patterns",
+    "title": "US Web Design System - Inclusive Design Patterns",
+    "description": "Worked as a front-end developer, UX designer, and researcher on inclusive, accessible design patterns for the USWDS. Integrated key considerations from user research and accessibility guidelines.",
+    "image": "/images/uswds_patterns.jpg",
+    "link": "/projects/USWDS/"
+  },
+  {
+    "id": "10x-gsa",
+    "title": "10x.gsa.gov",
+    "description": "Led dev and design of a reimagined 10x.gsa.gov, a platform for federal innovation funding. Improved usability, accessibility, and information flow while maintaining USWDS consistency.",
+    "image": "/images/10x_impact.jpg",
+    "link": "/projects/10x-redesign/"
+  },
+  {
+    "id": "antidote",
+    "title": "Antidote Therapies",
+    "description": "Parallax site for Antidote Functional Therapies.",
+    "image": "/images/antidote.jpg",
+    "link": "/projects/antidote/"
+  },
+  {
+    "id": "lara-bobel",
+    "title": "Lara Bobel - Portfolio",
+    "description": "Portfolio site for Lara Bobel. Written in AngularJS.",
+    "image": "/images/lara_bobel.jpg",
+    "link": "/projects/lara-bobel/"
+  }
+]
