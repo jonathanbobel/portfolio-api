@@ -30,6 +30,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/ping', (req, res) => {
+  console.log('Received /ping');
   res.send('pong');
 });
 
