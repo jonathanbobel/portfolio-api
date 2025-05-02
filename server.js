@@ -3,12 +3,21 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const projectsRouter = require('./routes/projects');
+const allowedOrigins = ['http://localhost:8080', 'https://www.jonathanbobel.com'];
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+}));
 app.use(morgan('dev'));
 app.use(express.json());
 
