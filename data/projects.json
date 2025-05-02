@@ -21,6 +21,13 @@
     "link": "/projects/10x-redesign/"
   },
   {
+    "id": "primary-ds",
+    "title": "Primary Design System",
+    "description": "Primary is a modular design system I originally built to support a large-scale enterprise design and development team. While the original version was created during my time at a Fortune 500 company, this iteration strips away proprietary branding to focus on reusable components, accessibility, and a scalable visual language.",
+    "image": "/images/primary_screenshot.png",
+    "link": "/projects/primary-ds/"
+  },
+  {
     "id": "antidote",
     "title": "Antidote Therapies",
     "description": "Parallax site for Antidote Functional Therapies.",

@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
   res.send('Portfolio API is running 🎉');
 });
 
+app.get('/ping', (req, res) => {
+  res.send('pong');
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
